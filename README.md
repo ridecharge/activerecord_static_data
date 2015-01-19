@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-`activerecord_static_data` provides a `static_data` method that you can use in your models to define which data the models
+`activerecord_static_data` provides a `static_data` method that allows you to explicitly list which records a static table should have. It keys off of a single column as a unique identifier. An error will be raised whenever the model is loaded if the model's table does not have the explicit list of records. You can override the check by setting this environment variable:
+
+```
+SKIP_REQUIRED_DATA=true
+```
 
 ### Example
 
