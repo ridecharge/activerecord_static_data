@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ActiveRecordStaticData::VERSION
   spec.authors       = ['Will Brady']
   spec.email         = ['wbrady@gocurb.com']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = 'Enforce models with static data to be seeded correctly'
+  spec.description   = ''
   spec.homepage      = ''
   spec.license       = 'MIT'
 
